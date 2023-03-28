@@ -1,23 +1,15 @@
 {
   "name": "private-voting",
-  "main": "private_voting.js",
   "collaborators": [
     "Yan Michalevsky (yan@cryptosat.io)"
   ],
-  "dependencies": {
-    "tweetnacl": "^1.0.3",
-    "uuid": "^8.3.2"
-  },
   "version": "0.1.0",
   "files": [
     "private_voting_bg.wasm",
     "private_voting.js",
+    "private_voting_bg.js",
     "private_voting.d.ts"
   ],
-  "scripts": {
-    "test": "jest",
-    "lint": "eslint"
-  },
   "module": "private_voting.js",
   "types": "private_voting.d.ts",
   "sideEffects": false
